@@ -1,0 +1,8 @@
+{
+  "name": "smart-campus-api",
+  "version": "1.0.0",
+  "description": "Backend for Smart Campus",
+  "scripts": {
+    "start": "mvnw spring-boot:run"
+  }
+}

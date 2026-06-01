@@ -1,0 +1,163 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.smartcampus:api >-------------------------
+[INFO] Building api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.4:run (default-cli) > test-compile @ api >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ api ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ api ---
+[INFO] skip non existing resourceDirectory C:\Users\CHAMA COMPUTERS\Downloads\PAF 12bacup\PAF 1 bacup\PAF 1\api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ api ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.4.4:run (default-cli) < test-compile @ api <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.4:run (default-cli) @ api ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2026-04-07T01:06:29.435+05:30  INFO 21580 --- [api] [           main] com.smartcampus.api.ApiApplication       : Starting ApiApplication using Java 23.0.2 with PID 21580 (C:\Users\CHAMA COMPUTERS\Downloads\PAF 12bacup\PAF 1 bacup\PAF 1\api\target\classes started by CHAMA COMPUTERS in C:\Users\CHAMA COMPUTERS\Downloads\PAF 12bacup\PAF 1 bacup\PAF 1\api)
+2026-04-07T01:06:29.437+05:30  INFO 21580 --- [api] [           main] com.smartcampus.api.ApiApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-04-07T01:06:29.911+05:30  INFO 21580 --- [api] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2026-04-07T01:06:29.970+05:30  INFO 21580 --- [api] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 6 MongoDB repository interfaces.
+2026-04-07T01:06:30.313+05:30  INFO 21580 --- [api] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-04-07T01:06:30.324+05:30  INFO 21580 --- [api] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-07T01:06:30.324+05:30  INFO 21580 --- [api] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-04-07T01:06:30.362+05:30  INFO 21580 --- [api] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-07T01:06:30.369+05:30  INFO 21580 --- [api] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 881 ms
+2026-04-07T01:06:30.603+05:30  INFO 21580 --- [api] [           main] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.2.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/23.0.2+7-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=majority, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='admin23', source='admin', password=<hidden>, mechanismProperties=<hidden>}, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@718f805a, com.mongodb.Jep395RecordCodecProvider@e09f1b6, com.mongodb.KotlinCodecProvider@557b6a37]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvHost=cluster0.noan6i7.mongodb.net, srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='atlas-51dywh-shard-0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverMonitoringMode=AUTO, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null, timeoutMS=null}
+2026-04-07T01:06:30.650+05:30  INFO 21580 --- [api] [6i7.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-omse8k5-shard-00-01.noan6i7.mongodb.net:27017 to client view of cluster
+2026-04-07T01:06:30.669+05:30  INFO 21580 --- [api] [6i7.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-omse8k5-shard-00-00.noan6i7.mongodb.net:27017 to client view of cluster
+2026-04-07T01:06:30.674+05:30  INFO 21580 --- [api] [6i7.mongodb.net] org.mongodb.driver.cluster               : Adding discovered server ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017 to client view of cluster
+2026-04-07T01:06:31.006+05:30  INFO 21580 --- [api] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-04-07T01:06:31.458+05:30  INFO 21580 --- [api] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2026-04-07T01:06:31.463+05:30  INFO 21580 --- [api] [           main] com.smartcampus.api.ApiApplication       : Started ApiApplication in 2.332 seconds (process running for 2.568)
+2026-04-07T01:06:31.502+05:30  INFO 21580 --- [api] [           main] org.mongodb.driver.cluster               : Waiting for server to become available for operation with ID 5. Remaining time: 29997 ms. Selector: ReadPreferenceServerSelector{readPreference=primary}, topology description: {type=REPLICA_SET, servers=[{address=ac-omse8k5-shard-00-01.noan6i7.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=ac-omse8k5-shard-00-00.noan6i7.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}, {address=ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017, type=UNKNOWN, state=CONNECTING}].
+2026-04-07T01:06:31.619+05:30  INFO 21580 --- [api] [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017, type=REPLICA_SET_PRIMARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=647862800, minRoundTripTimeNanos=0, setName='atlas-51dywh-shard-0', canonicalAddress=ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017, hosts=[ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017, ac-omse8k5-shard-00-01.noan6i7.mongodb.net:27017, ac-omse8k5-shard-00-00.noan6i7.mongodb.net:27017], passives=[], arbiters=[], primary='ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az2'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=7fffffff0000000000000140, setVersion=341, topologyVersion=TopologyVersion{processId=69cfdb711776a96d9cb2c862, counter=6}, lastWriteDate=Tue Apr 07 01:06:31 IST 2026, lastUpdateTimeNanos=436641432773000}
+2026-04-07T01:06:31.619+05:30  INFO 21580 --- [api] [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-omse8k5-shard-00-00.noan6i7.mongodb.net:27017, type=REPLICA_SET_SECONDARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=648050500, minRoundTripTimeNanos=0, setName='atlas-51dywh-shard-0', canonicalAddress=ac-omse8k5-shard-00-00.noan6i7.mongodb.net:27017, hosts=[ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017, ac-omse8k5-shard-00-01.noan6i7.mongodb.net:27017, ac-omse8k5-shard-00-00.noan6i7.mongodb.net:27017], passives=[], arbiters=[], primary='ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az1'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=341, topologyVersion=TopologyVersion{processId=69cfd8a54a79fba6cef1ed22, counter=4}, lastWriteDate=Tue Apr 07 01:06:31 IST 2026, lastUpdateTimeNanos=436641432774300}
+2026-04-07T01:06:31.620+05:30  INFO 21580 --- [api] [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=ac-omse8k5-shard-00-01.noan6i7.mongodb.net:27017, type=REPLICA_SET_SECONDARY, cryptd=false, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=647987000, minRoundTripTimeNanos=0, setName='atlas-51dywh-shard-0', canonicalAddress=ac-omse8k5-shard-00-01.noan6i7.mongodb.net:27017, hosts=[ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017, ac-omse8k5-shard-00-01.noan6i7.mongodb.net:27017, ac-omse8k5-shard-00-00.noan6i7.mongodb.net:27017], passives=[], arbiters=[], primary='ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017', tagSet=TagSet{[Tag{name='availabilityZone', value='aps1-az3'}, Tag{name='diskState', value='READY'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='workloadType', value='OPERATIONAL'}]}, electionId=null, setVersion=341, topologyVersion=TopologyVersion{processId=69cfde6a7860baa378517110, counter=3}, lastWriteDate=Tue Apr 07 01:06:31 IST 2026, lastUpdateTimeNanos=436641432773000}
+2026-04-07T01:06:31.620+05:30  INFO 21580 --- [api] [ngodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017 with max election id 7fffffff0000000000000140 and max set version 341
+2026-04-07T01:06:32.448+05:30  INFO 21580 --- [api] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-07T01:06:32.453+05:30 ERROR 21580 --- [api] [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='admin23', source='admin', password=<hidden>, mechanismProperties=<hidden>}
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.doTranslateException(MongoExceptionTranslator.java:151) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:74) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:3017) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2937) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.core.MongoTemplate.doFind(MongoTemplate.java:2635) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.core.ExecutableFindOperationSupport$ExecutableFindSupport.doFind(ExecutableFindOperationSupport.java:178) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.core.ExecutableFindOperationSupport$ExecutableFindSupport.oneValue(ExecutableFindOperationSupport.java:113) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.repository.query.AbstractMongoQuery.lambda$getExecution$8(AbstractMongoQuery.java:239) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.repository.query.AbstractMongoQuery.doExecute(AbstractMongoQuery.java:184) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.mongodb.repository.query.AbstractMongoQuery.execute(AbstractMongoQuery.java:156) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.4.jar:3.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:129) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.5.jar:6.2.5]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.5.jar:6.2.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy75.findByEmail(Unknown Source) ~[na:na]
+	at com.smartcampus.api.config.DataLoader.run(DataLoader.java:23) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.5.jar:6.2.5]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.5.jar:6.2.5]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.5.jar:6.2.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.4.4.jar:3.4.4]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.4.jar:3.4.4]
+	at com.smartcampus.api.ApiApplication.main(ApiApplication.java:10) ~[classes/:na]
+Caused by: com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='admin23', source='admin', password=<hidden>, mechanismProperties=<hidden>}
+	at com.mongodb.internal.connection.SaslAuthenticator.wrapException(SaslAuthenticator.java:300) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.SaslAuthenticator.lambda$authenticate$0(SaslAuthenticator.java:95) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.SaslAuthenticator.doAsSubject(SaslAuthenticator.java:307) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.SaslAuthenticator.authenticate(SaslAuthenticator.java:67) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.DefaultAuthenticator.authenticate(DefaultAuthenticator.java:53) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.finishHandshake(InternalStreamConnectionInitializer.java:89) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:238) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.UsageTrackingInternalConnection.open(UsageTrackingInternalConnection.java:53) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$PooledConnection.open(DefaultConnectionPool.java:632) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$OpenConcurrencyLimiter.openWithConcurrencyLimit(DefaultConnectionPool.java:979) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool$OpenConcurrencyLimiter.openOrGetAvailable(DefaultConnectionPool.java:909) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.DefaultConnectionPool.get(DefaultConnectionPool.java:199) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServer.getConnection(DefaultServer.java:94) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.binding.ClusterBinding$ClusterBindingConnectionSource.getConnection(ClusterBinding.java:138) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.client.internal.ClientSessionBinding$SessionBindingConnectionSource.getConnection(ClientSessionBinding.java:161) ~[mongodb-driver-sync-5.2.1.jar:na]
+	at com.mongodb.internal.operation.SyncOperationHelper.withSuppliedResource(SyncOperationHelper.java:148) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.operation.SyncOperationHelper.lambda$withSourceAndConnection$1(SyncOperationHelper.java:130) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.operation.SyncOperationHelper.withSuppliedResource(SyncOperationHelper.java:156) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.operation.SyncOperationHelper.withSourceAndConnection(SyncOperationHelper.java:129) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.operation.FindOperation.lambda$execute$2(FindOperation.java:296) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.operation.SyncOperationHelper.lambda$decorateReadWithRetries$13(SyncOperationHelper.java:317) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.async.function.RetryingSyncSupplier.get(RetryingSyncSupplier.java:67) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.operation.FindOperation.execute(FindOperation.java:307) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.operation.FindOperation.execute(FindOperation.java:70) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.client.internal.MongoClusterImpl$OperationExecutorImpl.execute(MongoClusterImpl.java:358) ~[mongodb-driver-sync-5.2.1.jar:na]
+	at com.mongodb.client.internal.MongoIterableImpl.execute(MongoIterableImpl.java:156) ~[mongodb-driver-sync-5.2.1.jar:na]
+	at com.mongodb.client.internal.MongoIterableImpl.iterator(MongoIterableImpl.java:116) ~[mongodb-driver-sync-5.2.1.jar:na]
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindMultiInternal(MongoTemplate.java:2924) ~[spring-data-mongodb-4.4.4.jar:4.4.4]
+	... 38 common frames omitted
+Caused by: com.mongodb.MongoCommandException: Command failed with error 8000 (AtlasError): 'bad auth : authentication failed' on server ac-omse8k5-shard-00-02.noan6i7.mongodb.net:27017. The full response is {"ok": 0, "errmsg": "bad auth : authentication failed", "code": 8000, "codeName": "AtlasError"}
+	at com.mongodb.internal.connection.ProtocolHelper.getCommandFailureException(ProtocolHelper.java:210) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:520) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceiveInternal(InternalStreamConnection.java:448) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.lambda$sendAndReceive$0(InternalStreamConnection.java:375) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:378) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:100) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:49) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.SaslAuthenticator.sendSaslContinue(SaslAuthenticator.java:246) ~[mongodb-driver-core-5.2.1.jar:na]
+	at com.mongodb.internal.connection.SaslAuthenticator.lambda$authenticate$0(SaslAuthenticator.java:83) ~[mongodb-driver-core-5.2.1.jar:na]
+	... 64 common frames omitted
+
+2026-04-07T01:06:32.463+05:30  INFO 21580 --- [api] [           main] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07T01:06:32.469+05:30  INFO 21580 --- [api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.603 s
+[INFO] Finished at: 2026-04-07T01:06:33+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.4.4:run (default-cli) on project api: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,581 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.smartcampus:api >-------------------------
+[INFO] Building api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 34 source files with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[24,33] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[27,33] constructor User in class com.smartcampus.api.model.User cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.smartcampus.api.model.Role,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[33,33] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[36,33] constructor User in class com.smartcampus.api.model.User cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.smartcampus.api.model.Role,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[41,33] constructor User in class com.smartcampus.api.model.User cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,java.lang.String,java.lang.String,com.smartcampus.api.model.Role,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[45,37] constructor Resource in class com.smartcampus.api.model.Resource cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,com.smartcampus.api.model.Resource.Type,int,java.lang.String,com.smartcampus.api.model.Resource.Status,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[46,37] constructor Resource in class com.smartcampus.api.model.Resource cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,com.smartcampus.api.model.Resource.Type,int,java.lang.String,com.smartcampus.api.model.Resource.Status,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[47,37] constructor Resource in class com.smartcampus.api.model.Resource cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,com.smartcampus.api.model.Resource.Type,int,java.lang.String,com.smartcampus.api.model.Resource.Status,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[40,67] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[44,41] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[45,41] cannot find symbol
+  symbol:   method getPassword()
+  location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[50,64] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[51,73] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[52,38] constructor AuthResponse in class com.smartcampus.api.dto.AuthResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,com.smartcampus.api.model.User
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[54,69] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[62,57] cannot find symbol
+  symbol:   method getEmail()
+  location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[67,39] cannot find symbol
+  symbol:   method getName()
+  location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[68,40] cannot find symbol
+  symbol:   method getEmail()
+  location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[69,66] cannot find symbol
+  symbol:   method getPassword()
+  location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[71,17] cannot find symbol
+  symbol:   method setRole(signUpRequ[...].USER)
+  location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[71,39] cannot find symbol
+  symbol:   method getRole()
+  location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[71,73] cannot find symbol
+  symbol:   method getRole()
+  location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[40,37] cannot find symbol
+  symbol:   method getEndTime()
+  location: variable b of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[40,72] cannot find symbol
+  symbol:   method getStartTime()
+  location: variable b of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[46,16] cannot find symbol
+  symbol:   method setUser(com.smartcampus.api.model.User)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[47,16] cannot find symbol
+  symbol:   method setResource(com.smartcampus.api.model.Resource)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[48,16] cannot find symbol
+  symbol:   method setStartTime(java.time.LocalDateTime)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[49,16] cannot find symbol
+  symbol:   method setEndTime(java.time.LocalDateTime)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[50,16] cannot find symbol
+  symbol:   method setPurpose(java.lang.String)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[51,16] cannot find symbol
+  symbol:   method setExpectedAttendees(java.lang.Integer)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[52,16] cannot find symbol
+  symbol:   method setStatus(com.smartcampus.api.model.Booking.Status)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[56,47] cannot find symbol
+  symbol:   method getName()
+  location: variable resource of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[57,33] cannot find symbol
+  symbol:   method getId()
+  location: variable saved of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[64,16] cannot find symbol
+  symbol:   method setStatus(com.smartcampus.api.model.Booking.Status)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[65,36] cannot find symbol
+  symbol:   method setRejectionReason(java.lang.String)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[69,46] cannot find symbol
+  symbol:   method getResource()
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[68,55] cannot find symbol
+  symbol:   method getUser()
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[70,33] cannot find symbol
+  symbol:   method getId()
+  location: variable saved of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[77,21] cannot find symbol
+  symbol:   method getUser()
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[80,16] cannot find symbol
+  symbol:   method setStatus(com.smartcampus.api.model.Booking.Status)
+  location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/security/UserPrincipal.java:[26,79] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/security/UserPrincipal.java:[28,21] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/security/UserPrincipal.java:[29,21] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/security/UserPrincipal.java:[30,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[18,21] cannot find symbol
+  symbol:   method setUser(com.smartcampus.api.model.User)
+  location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[19,21] cannot find symbol
+  symbol:   method setMessage(java.lang.String)
+  location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[20,21] cannot find symbol
+  symbol:   method setRead(boolean)
+  location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[21,21] cannot find symbol
+  symbol:   method setRelatedEntityType(java.lang.String)
+  location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[22,21] cannot find symbol
+  symbol:   method setRelatedEntityId(java.lang.String)
+  location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[23,21] cannot find symbol
+  symbol:   method setCreatedAt(java.time.LocalDateTime)
+  location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[33,29] cannot find symbol
+  symbol:   method getUser()
+  location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[34,29] cannot find symbol
+  symbol:   method setRead(boolean)
+  location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[29,41] cannot find symbol
+  symbol:   method getName()
+  location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[30,41] cannot find symbol
+  symbol:   method getType()
+  location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[31,45] cannot find symbol
+  symbol:   method getCapacity()
+  location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[32,45] cannot find symbol
+  symbol:   method getLocation()
+  location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[33,43] cannot find symbol
+  symbol:   method getStatus()
+  location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[34,45] cannot find symbol
+  symbol:   method getImageUrl()
+  location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/TicketController.java:[35,36] cannot find symbol
+  symbol:   method getResource()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/TicketController.java:[35,68] cannot find symbol
+  symbol:   method getResource()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[37,15] cannot find symbol
+  symbol:   method setCreator(com.smartcampus.api.model.User)
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[42,19] cannot find symbol
+  symbol:   method setResource(com.smartcampus.api.model.Resource)
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[45,35] cannot find symbol
+  symbol:   method getCategory()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[46,38] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[47,41] cannot find symbol
+  symbol:   method getContactDetails()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[48,35] cannot find symbol
+  symbol:   method getPriority()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[49,15] cannot find symbol
+  symbol:   method setStatus(com.smartcampus.api.model.Ticket.Status)
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[50,38] cannot find symbol
+  symbol:   method getAttachment1()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[51,38] cannot find symbol
+  symbol:   method getAttachment2()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[52,38] cannot find symbol
+  symbol:   method getAttachment3()
+  location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[53,15] cannot find symbol
+  symbol:   method setCreatedAt(java.time.LocalDateTime)
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[54,15] cannot find symbol
+  symbol:   method setUpdatedAt(java.time.LocalDateTime)
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[62,15] cannot find symbol
+  symbol:   method setStatus(com.smartcampus.api.model.Ticket.Status)
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[63,15] cannot find symbol
+  symbol:   method setUpdatedAt(java.time.LocalDateTime)
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[67,19] cannot find symbol
+  symbol:   method setAssignee(com.smartcampus.api.model.User)
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[69,45] cannot find symbol
+  symbol:   method getId()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[68,58] cannot find symbol
+  symbol:   method getCreator()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[69,111] cannot find symbol
+  symbol:   method getId()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[72,41] cannot find symbol
+  symbol:   method getId()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[71,54] cannot find symbol
+  symbol:   method getCreator()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[72,113] cannot find symbol
+  symbol:   method getId()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[83,16] cannot find symbol
+  symbol:   method setTicket(com.smartcampus.api.model.Ticket)
+  location: variable comment of type com.smartcampus.api.model.Comment
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[84,16] cannot find symbol
+  symbol:   method setAuthor(com.smartcampus.api.model.User)
+  location: variable comment of type com.smartcampus.api.model.Comment
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[85,16] cannot find symbol
+  symbol:   method setContent(java.lang.String)
+  location: variable comment of type com.smartcampus.api.model.Comment
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[86,16] cannot find symbol
+  symbol:   method setCreatedAt(java.time.LocalDateTime)
+  location: variable comment of type com.smartcampus.api.model.Comment
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[90,55] cannot find symbol
+  symbol:   method getId()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[90,83] cannot find symbol
+  symbol:   method getName()
+  location: variable author of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[89,54] cannot find symbol
+  symbol:   method getCreator()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[90,117] cannot find symbol
+  symbol:   method getId()
+  location: variable ticket of type com.smartcampus.api.model.Ticket
+[INFO] 89 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.067 s
+[INFO] Finished at: 2026-03-25T21:37:45+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project api: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[24,33] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[27,33] constructor User in class com.smartcampus.api.model.User cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.smartcampus.api.model.Role,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[33,33] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[36,33] constructor User in class com.smartcampus.api.model.User cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.smartcampus.api.model.Role,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[41,33] constructor User in class com.smartcampus.api.model.User cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,java.lang.String,java.lang.String,com.smartcampus.api.model.Role,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[45,37] constructor Resource in class com.smartcampus.api.model.Resource cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,com.smartcampus.api.model.Resource.Type,int,java.lang.String,com.smartcampus.api.model.Resource.Status,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[46,37] constructor Resource in class com.smartcampus.api.model.Resource cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,com.smartcampus.api.model.Resource.Type,int,java.lang.String,com.smartcampus.api.model.Resource.Status,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/config/DataLoader.java:[47,37] constructor Resource in class com.smartcampus.api.model.Resource cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,com.smartcampus.api.model.Resource.Type,int,java.lang.String,com.smartcampus.api.model.Resource.Status,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[40,67] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[44,41] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[45,41] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[50,64] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[51,73] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[52,38] constructor AuthResponse in class com.smartcampus.api.dto.AuthResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,com.smartcampus.api.model.User
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[54,69] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.smartcampus.api.dto.LoginRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[62,57] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[67,39] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[68,40] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[69,66] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[71,17] cannot find symbol
+[ERROR]   symbol:   method setRole(signUpRequ[...].USER)
+[ERROR]   location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[71,39] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/AuthController.java:[71,73] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable signUpRequest of type com.smartcampus.api.dto.SignupRequest
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[40,37] cannot find symbol
+[ERROR]   symbol:   method getEndTime()
+[ERROR]   location: variable b of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[40,72] cannot find symbol
+[ERROR]   symbol:   method getStartTime()
+[ERROR]   location: variable b of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[46,16] cannot find symbol
+[ERROR]   symbol:   method setUser(com.smartcampus.api.model.User)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[47,16] cannot find symbol
+[ERROR]   symbol:   method setResource(com.smartcampus.api.model.Resource)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[48,16] cannot find symbol
+[ERROR]   symbol:   method setStartTime(java.time.LocalDateTime)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[49,16] cannot find symbol
+[ERROR]   symbol:   method setEndTime(java.time.LocalDateTime)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[50,16] cannot find symbol
+[ERROR]   symbol:   method setPurpose(java.lang.String)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[51,16] cannot find symbol
+[ERROR]   symbol:   method setExpectedAttendees(java.lang.Integer)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[52,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.smartcampus.api.model.Booking.Status)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[56,47] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable resource of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[57,33] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable saved of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[64,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.smartcampus.api.model.Booking.Status)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[65,36] cannot find symbol
+[ERROR]   symbol:   method setRejectionReason(java.lang.String)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[69,46] cannot find symbol
+[ERROR]   symbol:   method getResource()
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[68,55] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[70,33] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable saved of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[77,21] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/BookingService.java:[80,16] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.smartcampus.api.model.Booking.Status)
+[ERROR]   location: variable booking of type com.smartcampus.api.model.Booking
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/security/UserPrincipal.java:[26,79] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/security/UserPrincipal.java:[28,21] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/security/UserPrincipal.java:[29,21] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/security/UserPrincipal.java:[30,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[18,21] cannot find symbol
+[ERROR]   symbol:   method setUser(com.smartcampus.api.model.User)
+[ERROR]   location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[19,21] cannot find symbol
+[ERROR]   symbol:   method setMessage(java.lang.String)
+[ERROR]   location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[20,21] cannot find symbol
+[ERROR]   symbol:   method setRead(boolean)
+[ERROR]   location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[21,21] cannot find symbol
+[ERROR]   symbol:   method setRelatedEntityType(java.lang.String)
+[ERROR]   location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[22,21] cannot find symbol
+[ERROR]   symbol:   method setRelatedEntityId(java.lang.String)
+[ERROR]   location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[23,21] cannot find symbol
+[ERROR]   symbol:   method setCreatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[33,29] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/NotificationService.java:[34,29] cannot find symbol
+[ERROR]   symbol:   method setRead(boolean)
+[ERROR]   location: variable notification of type com.smartcampus.api.model.Notification
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[29,41] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[30,41] cannot find symbol
+[ERROR]   symbol:   method getType()
+[ERROR]   location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[31,45] cannot find symbol
+[ERROR]   symbol:   method getCapacity()
+[ERROR]   location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[32,45] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[33,43] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/ResourceService.java:[34,45] cannot find symbol
+[ERROR]   symbol:   method getImageUrl()
+[ERROR]   location: variable resourceDetails of type com.smartcampus.api.model.Resource
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/TicketController.java:[35,36] cannot find symbol
+[ERROR]   symbol:   method getResource()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/controller/TicketController.java:[35,68] cannot find symbol
+[ERROR]   symbol:   method getResource()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[37,15] cannot find symbol
+[ERROR]   symbol:   method setCreator(com.smartcampus.api.model.User)
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[42,19] cannot find symbol
+[ERROR]   symbol:   method setResource(com.smartcampus.api.model.Resource)
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[45,35] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[46,38] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[47,41] cannot find symbol
+[ERROR]   symbol:   method getContactDetails()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[48,35] cannot find symbol
+[ERROR]   symbol:   method getPriority()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[49,15] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.smartcampus.api.model.Ticket.Status)
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[50,38] cannot find symbol
+[ERROR]   symbol:   method getAttachment1()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[51,38] cannot find symbol
+[ERROR]   symbol:   method getAttachment2()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[52,38] cannot find symbol
+[ERROR]   symbol:   method getAttachment3()
+[ERROR]   location: variable request of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[53,15] cannot find symbol
+[ERROR]   symbol:   method setCreatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[54,15] cannot find symbol
+[ERROR]   symbol:   method setUpdatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[62,15] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.smartcampus.api.model.Ticket.Status)
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[63,15] cannot find symbol
+[ERROR]   symbol:   method setUpdatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[67,19] cannot find symbol
+[ERROR]   symbol:   method setAssignee(com.smartcampus.api.model.User)
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[69,45] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[68,58] cannot find symbol
+[ERROR]   symbol:   method getCreator()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[69,111] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[72,41] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[71,54] cannot find symbol
+[ERROR]   symbol:   method getCreator()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[72,113] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[83,16] cannot find symbol
+[ERROR]   symbol:   method setTicket(com.smartcampus.api.model.Ticket)
+[ERROR]   location: variable comment of type com.smartcampus.api.model.Comment
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[84,16] cannot find symbol
+[ERROR]   symbol:   method setAuthor(com.smartcampus.api.model.User)
+[ERROR]   location: variable comment of type com.smartcampus.api.model.Comment
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[85,16] cannot find symbol
+[ERROR]   symbol:   method setContent(java.lang.String)
+[ERROR]   location: variable comment of type com.smartcampus.api.model.Comment
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[86,16] cannot find symbol
+[ERROR]   symbol:   method setCreatedAt(java.time.LocalDateTime)
+[ERROR]   location: variable comment of type com.smartcampus.api.model.Comment
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[90,55] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[90,83] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable author of type com.smartcampus.api.model.User
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[89,54] cannot find symbol
+[ERROR]   symbol:   method getCreator()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] /C:/Users/CHAMA COMPUTERS/Downloads/PAF 1/api/src/main/java/com/smartcampus/api/service/TicketService.java:[90,117] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable ticket of type com.smartcampus.api.model.Ticket
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

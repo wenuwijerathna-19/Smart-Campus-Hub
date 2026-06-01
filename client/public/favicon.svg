@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#166534;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14532D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16A34A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ADE80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22C55E;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background rounded square -->
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle inner glow -->
+  <rect x="4" y="4" width="56" height="56" rx="12" ry="12" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  
+  <!-- Building / Campus Icon -->
+  <!-- Main building body -->
+  <rect x="18" y="26" width="28" height="22" rx="2" fill="rgba(255,255,255,0.95)"/>
+  
+  <!-- Roof / Triangle -->
+  <polygon points="32,12 14,28 50,28" fill="url(#roofGrad)" filter="url(#glow)"/>
+  
+  <!-- Roof ridge accent line -->
+  <line x1="32" y1="14" x2="32" y2="20" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Pillars -->
+  <rect x="22" y="30" width="3" height="16" rx="1" fill="url(#bgGrad)" opacity="0.7"/>
+  <rect x="30.5" y="30" width="3" height="16" rx="1" fill="url(#bgGrad)" opacity="0.7"/>
+  <rect x="39" y="30" width="3" height="16" rx="1" fill="url(#bgGrad)" opacity="0.7"/>
+  
+  <!-- Door -->
+  <rect x="28" y="38" width="8" height="10" rx="4" fill="url(#accentGrad)"/>
+  
+  <!-- Windows row -->
+  <rect x="20" y="31" width="4" height="3" rx="0.5" fill="url(#accentGrad)" opacity="0.5"/>
+  <rect x="30" y="31" width="4" height="3" rx="0.5" fill="url(#accentGrad)" opacity="0.5"/>
+  <rect x="40" y="31" width="4" height="3" rx="0.5" fill="url(#accentGrad)" opacity="0.5"/>
+  
+  <!-- Smart signal waves (WiFi/connectivity symbol) -->
+  <path d="M 44 16 Q 48 14 50 18" fill="none" stroke="#4ADE80" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 46 13 Q 52 10 55 17" fill="none" stroke="#4ADE80" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Small glowing dot (smart indicator) -->
+  <circle cx="43" cy="18" r="2" fill="#4ADE80" filter="url(#glow)" opacity="0.9"/>
+  
+  <!-- Base line -->
+  <line x1="12" y1="48" x2="52" y2="48" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
